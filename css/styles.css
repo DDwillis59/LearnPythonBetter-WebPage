@@ -1,0 +1,138 @@
+
+
+/* CSS reset */
+
+body,header,nav, main, footer,h1, p, article{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+img{
+    transform: translate(200px);
+    max-width: 100%;
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Body */
+body{
+    background-color: #93A29B;
+}
+
+/* Header */
+
+header{
+    width: 25%;
+    float: left;
+    padding-bottom: 0;
+    
+}
+
+/* Nav */
+nav{
+    margin: 20px;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 2em;
+    border: none;
+}
+
+nav li a{
+    padding: .2em 0.75em;
+    text-decoration: none;
+    color: #DDD78D;
+
+    
+}
+
+nav li:hover{
+    background-color: #93A29B;
+    transform: scale(1.25);
+}
+
+nav li a:visited{
+    text-decoration: none;
+    color: #DDD78D;
+}
+
+/* main */
+
+main{
+    background-color: #60594D;
+    padding: 2%;
+    font-size: 1.5em;
+    clear: left;
+}
+
+/* Footer */
+footer, footer a{
+    padding: 1em;
+    font-size: 1em;
+    color: #DDD78D;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+h1, p{
+    text-align:center ;
+    color: #DDD78D;
+}
+
+p{
+    padding-bottom: 2%;
+}
+
+h1{
+    color: #93A29B;
+    padding-bottom: .5em;
+}
+
+.grid {
+    padding: 1em 1em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+
+article{
+    padding: 2%;
+}
+
+article a{
+    font-size: 1.2em;
+    color: #DCBF85 ;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+article a:visited{
+    color: #DCBF85;
+}
+
+article ul{
+    list-style-type: none;
+    padding: 2%;
+    margin-top: 0;
+}
+article li{
+    color:#DDD78D ;
+    text-align: center;
+}
+
+
+
+

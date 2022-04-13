@@ -118,7 +118,7 @@ article li{
 
 
 
-@media screen and (min-width: 630px), print {
+@media (min-width: 768px){
     /* Show tablet hide mobile viewport */
     .tablet-desk{
         display: block;
@@ -174,9 +174,7 @@ article li{
 
 }
 
-@media screen and (min-width: 769px), print {
-        
-}
+
 
 
 

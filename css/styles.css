@@ -19,7 +19,7 @@ img{
 }
 
 /* Body */
-body{
+.non-boot-body{
     background-color: #93A29B;
 }
 
@@ -113,12 +113,33 @@ article li{
     color:#DDD78D ;
     text-align: center;
 }
+.dropdown ul{
+    background-color: #60594D;
+    color: #DCBF85;
+    list-style: none;
+}
+.dropdown li a{
+    color: #DDD78D;
+    text-decoration: none;
+    
+}
+.dropdown li:hover{
+    background-color: #93A29B;
+    
+}
+
+div p a{
+    text-decoration: none;
+    color: #DDD78D;
+}
+div p a:hover{
+    color: #DCBF85;
+}
 
 
 
 
-
-@media (min-width: 768px){
+@media screen and (min-width: 800px){
     /* Show tablet hide mobile viewport */
     .tablet-desk{
         display: block;
@@ -153,8 +174,8 @@ article li{
         
     }
     
-    nav li:hover{
-        background-color: #93A29B;
+    .top-nav ul li:hover{
+        background-color: #60594D;
         transform: scale(1.25);
     }
     
@@ -170,7 +191,6 @@ article li{
         grid-gap: 20px;
     }
 
-    
 
 }
 

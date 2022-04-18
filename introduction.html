@@ -14,12 +14,14 @@
         <div id="container">
 
             <nav class="mobile-nav">
-                
-                    <a href="index.html">Home</a>
-                    <a href="introduction.html">Introduction</a>
-                    <a href="about.html">About</a>
-                    <a href="contact.html">Contact</a>
-                
+                <a href="index.html">Home</a>
+                <hr>
+                <a href="introduction.html">Introduction</a>
+                <hr>
+                <a href="about.html">About</a>
+                <hr>
+                <a href="contact.html">Contact</a>
+                <hr>
             </nav>
 
             <!--Header-->
@@ -44,7 +46,7 @@
             <!--Main-->
             <main>
 
-                <h1>Intro</h1>
+                <h1 class="pt-3">Intro</h1>
                 <p>This will be the start of your python curriculum</p>
                 
                 <p> There are many differnt sub-categories that you can go down while learning python or code in general. </p>
@@ -55,45 +57,52 @@
 
 
                 <div class="grid">
-                    <article>
-                        <h1>Data Science</h1>
-                        <p>In data science you are going to be more centered around using data charts and collecting and manipulating data.</p>   
-                        <p>Modules you'll work with:</p>
-                        <ul>
-                            <li>NumPy</li>
-                            <li>Pandas</li>
-                            <li>Matplotlib</li>
-                            <li>Seaborn</li>
-                        </ul>
+                    <div class="card non-boot-card border-secondary border-3">
+                        <h1 class="card-header">Data Science</h1>
+                        <div class="card-body">
+                            <p>In data science you are going to be more centered around using data charts and collecting and manipulating data.</p>   
+                            <p>Modules you'll work with:</p>
+                            <ul>
+                                <li>NumPy</li>
+                                <li>Pandas</li>
+                                <li>Matplotlib</li>
+                                <li>Seaborn</li>
+                            </ul>   
+                        </div>
+                        <p class="card-footer btn m-0"><a href="datascience.html">Advance to data science</a></p>
+                    </div>
 
-                        <p><a href="datascience.html">Advance to data science</a></p>
-                    </article>
+                    <div class="card non-boot-card border-secondary border-3">
+                        <h1 class="card-header">Software Developmentf</h1>
+                        <div class="card-body">
+                            <p>In Software devlopment is a very broad field where you can be working with things from api's to databases</p>   
+                            <p>Modules you'll work with:</p>
+                            <ul>
+                                <li>Flask</li>
+                                <li>Requests</li>
+                                <li>Select SQL Modules</li>
+                                <li>Selenium</li>
+                            </ul>  
+                        </div>
+                        
+                        <p class="card-footer btn m-0"><a href="softwaredev.html">Advance to Software Devlopment</a></p>
+                    </div>
 
-                    <article>
-                        <h1>Software Developer</h1>
-                        <p>In Software devlopment is a very broad field where you can be working with things from api's to databases</p>   
-                        <p>Modules you'll work with:</p>
-                        <ul>
-                            <li>Flask</li>
-                            <li>Requests</li>
-                            <li>Select SQL Modules</li>
-                            <li>Selenium</li>
-                        </ul>
-                        <p><a href="#">Advance to Software Devlopment</a></p>
-                    </article>
-
-                    <article>
-                        <h1>Cybersecurity</h1>
-                        <p>In Cybersecurity you'll be working to incrypt with python and use to make TTPs. You'll either be using python to defend data or brute force data.</p> 
-                        <p>Modules you'll work with:</p>
-                        <ul>
-                            <li>Pycrypto</li>
-                            <li>Cryptography</li>
-                            <li>Faker</li>
-                            
-                        </ul>
-                        <p><a href="#">Advance to Cybersecurity</a></p>
-                    </article>  
+                    <div class="card non-boot-card border-secondary border-3">
+                        <h1 class="card-header">Cybersecurity</h1>
+                        <div class="card-body">
+                            <p>In Cybersecurity you'll be working to incrypt with python and use to make TTPs. You'll either be using python to defend data or brute force data.</p> 
+                            <p>Modules you'll work with:</p>
+                            <ul>
+                                <li>Pycrypto</li>
+                                <li>Cryptography</li>
+                                <li>Faker</li>
+                                
+                            </ul>   
+                        </div>
+                        
+                        <p class="card-footer btn m-0"><a href="cybersecurity.html">Advance to Cybersecurity</a></p>
+                    </div>  
                 </div>
                 
 

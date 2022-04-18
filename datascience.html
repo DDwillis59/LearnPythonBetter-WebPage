@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Template</title>
+        <title>Data Science</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/styles.css">
@@ -12,6 +12,19 @@
     <body class="non-boot-body">
 
         <div id="container">
+
+            <nav class="mobile-nav">
+                
+                <a href="index.html">Home</a>
+                <hr>
+                <a href="introduction.html">Introduction</a>
+                <hr>
+                <a href="about.html">About</a>
+                <hr>
+                <a href="contact.html">Contact</a>
+                <hr>
+            </nav>
+
             <!--Header-->
             <header></header>
 
@@ -29,28 +42,35 @@
                 
             </nav>
             
-            <div id="hero">
+            <div id="hero" class="tablet-desk">
                 <img src="images/lpb.png" alt="Things they don't teach you in school with python logo">
             </div>
-            <div class="dropdown ps-3">
-                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">
-                  Data Science Content
-                </button>
-                <ul class="dropdown-menu">
-                  <li class="p-2"><a href="#">Data Science pg. 1</a></li>
-                  <li class="p-2"><a href="#">Data Science pg. 2</a></li>
-                </ul>
+            <!-- Offcanvas Sidebar -->
+            <div class="offcanvas offcanvas-start" id="course-pages">
+                <div class="offcanvas-header">
+                    <h1 class="offcanvas-title">Course Pages</h1>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <p><a href="#">Python Imports.</a></p>
+                
+                </div>
             </div>
+            <button class="btn ms-3 mb-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#course-pages">
+                Open Course Pages
+            </button>
 
             <!--Main-->
             <main>
-                <div mt-4 p-5 >
-                    <h1>Data Science</h1>
-                    <p>In the past decade, data scientists have become necessary assets and are present in almost all organizations. These professionals are well-rounded, data-driven 
+                <div class="mt-4 p-5" >
+                    <h1>What happens in data science?</h1>
+                    <p class="tablet-desk">In the past decade, data scientists have become necessary assets and are present in almost all organizations. These professionals are well-rounded, data-driven 
                         individuals with high-level technical skills who are capable of building complex quantitative algorithms to organize and synthesize large amounts of information 
                         used to answer questions and drive strategy in their organization. This is coupled with the experience in communication and leadership needed to deliver tangible 
-                        results to various stakeholders across an organization or business. <a class="blockquote" href="https://ischoolonline.berkeley.edu/data-science/what-is-data-science/" target="_blank"> -berkeley.edu</a></p>
-                    
+                        results to various stakeholders across an organization or business. <a class="blockquote" href="https://ischoolonline.berkeley.edu/data-science/what-is-data-science/" target="_blank"> -berkeley.edu</a>
+                    </p>
+
+                    <h1>Why pyhton for data science?</h1>
                 </div>
           
             </main>

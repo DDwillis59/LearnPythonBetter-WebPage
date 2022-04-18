@@ -80,39 +80,18 @@ h1, p{
 p{
     padding-bottom: 2%;
 }
+p a:hover {
+    background-color: #93A29B;
+}
 
 h1{
     color: #93A29B;
     padding-bottom: .5em;
 }
-
-
-
-article{
-    padding: 2%;
+.mobile-nav a:hover{
+    color: #DDD78D;
 }
 
-article a{
-    font-size: 1.2em;
-    color: #DCBF85 ;
-    font-weight: bold;
-    text-decoration: none;
-
-}
-
-article a:visited{
-    color: #DCBF85;
-}
-
-article ul{
-    list-style-type: none;
-    padding: 2%;
-    margin-top: 0;
-}
-article li{
-    color:#DDD78D ;
-    text-align: center;
-}
 .dropdown ul{
     background-color: #60594D;
     color: #DCBF85;
@@ -127,12 +106,95 @@ article li{
     background-color: #93A29B;
     
 }
+.dropdown .btn{
+    color: #DDD78D;
+    font-size: larger;
+    font-weight: bolder;
+}
 
 div p a{
     text-decoration: none;
     color: #DDD78D;
 }
 div p a:hover{
+    color: #DCBF85;
+}
+
+.non-boot-card .card-body{
+    background-color: #93A29B;
+}
+
+.card .card-header{
+    background-color: #93A29B;
+    color: #DDD78D;
+}
+
+.card .card-footer{
+    background-color: #93A29B;
+    color: #DDD78D;
+    font-size: large;
+    font-weight: bold;
+}
+
+.card ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 1%;
+    text-align: center;
+}
+
+.card li{
+    color: #DCBF85;
+    
+}
+
+.contact{
+    text-align: center;
+    color: #DCBF85;
+}
+.contact .cotact-email-link{
+    text-align: center;
+}
+
+.contact a{
+    color: #DDD78D;
+    text-decoration: none;
+}
+
+.contact a:hover{
+    color: #DCBF85;
+}
+
+form{
+    background-color: #524c42;
+    color: #DCBF85
+}
+form .form-control{
+    background-color: #93A29B;
+    border: none;
+    
+}
+form .form-control:enabled{
+    background-color: #93A29B;
+    border: none;
+    
+}
+
+.offcanvas-header{
+    text-align: center;
+    background-color: #60594D;
+}
+
+.offcanvas-body{
+    background-color: #93A29B;
+}
+
+form .btn{
+    background-color: #aab6b0;
+}
+
+form h2{
+    text-align: center;
     color: #DCBF85;
 }
 

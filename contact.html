@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Contact</title>
+        <title>About</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/styles.css">
@@ -14,14 +14,16 @@
         <div id="container">
 
             <nav class="mobile-nav">
-                
-                    <a href="index.html">Home</a>
-                    <a href="introduction.html">Introduction</a>
-                    <a href="about.html">About</a>
-                    <a href="contact.html">Contact</a>
-                
+                <a href="index.html">Home</a>
+                <hr>
+                <a href="introduction.html">Introduction</a>
+                <hr>
+                <a href="about.html">About</a>
+                <hr>
+                <a href="contact.html">Contact</a>
+                <hr>
             </nav>
-
+            
             <!--Header-->
             <header></header>
 
@@ -43,7 +45,33 @@
 
             <!--Main-->
             <main>
-          
+                <div class="contact">
+                    <h2>Have questions or wanna comment of content?</h2>
+                    <h4 class="mobile tel-link"><a href="tel:757-386-5089">(757) 386-5089</a></h4>
+                    <h4 class="tablet-desktop tel-num"><a href="tel:757-386-5089">(757) 386-5089</a></h4>
+                    <h4>Email us: <a href="mailto:learnpythonbetter@gmail.com" class="contact-email-link">learnpythonbetter@gmail.com</a></h4>
+                    
+                </div>
+
+                <form action="index.html" class="form p-4 mt-3 rounded-3">
+                    <h2>Fill out the form below to send a message: </h2>
+                    <div class="form-floating mb-3 mt-3 pt-2">
+                        <input type="text" placeholder="name" name="fName" id="fName" class="form-control">
+                        <label for="fName" class="form-label">Name</label>
+                    </div>
+                    <div class="form-floating mb-3 mt-3 pt-2">
+                        <input type="text" placeholder="email" name="email" id="email" class="form-control">
+                        <label for="email" class="form-label">Email</label>
+                    </div>
+                    <div class="form mb-3 mt-3 pt-2">
+                        <label for="comment">Comments:</label>
+                        <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+                    </div>
+                    <div class="d-grid">
+                       <button type="submit" class="btn btn-block">Submit</button>
+                    </div>
+                    
+                </form>
             </main>
 
             <!--Footer-->
@@ -56,4 +84,4 @@
 
 
     </body>
-</html>
+</html>f

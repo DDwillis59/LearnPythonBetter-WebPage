@@ -8,7 +8,7 @@ body,header,nav, main, footer,h1, div,img, article{
     border: 0;
 }
 
-img{
+img, video{
     
     max-width: 100%;
     display: block;
@@ -80,9 +80,7 @@ h1, p{
 p{
     padding-bottom: 2%;
 }
-p a:hover {
-    background-color: #93A29B;
-}
+
 
 h1{
     color: #93A29B;
@@ -92,28 +90,8 @@ h1{
     color: #DDD78D;
 }
 
-.dropdown ul{
-    background-color: #60594D;
-    color: #DCBF85;
-    list-style: none;
-}
-.dropdown li a{
-    color: #DDD78D;
-    text-decoration: none;
-    
-}
-.dropdown li:hover{
-    background-color: #93A29B;
-    
-}
-.dropdown .btn{
-    color: #DDD78D;
-    font-size: larger;
-    font-weight: bolder;
-}
-
 div p a{
-    text-decoration: none;
+    text-decoration: underline;
     color: #DDD78D;
 }
 div p a:hover{
@@ -198,6 +176,17 @@ form h2{
     color: #DCBF85;
 }
 
+div video{
+
+    margin: auto auto;
+}
+
+.coursebtn{
+    background-color: #524c42;
+    color: #DCBF85;
+    padding: 1%;
+  
+}
 
 
 
